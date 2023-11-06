@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Application launcher
+Exec=@bindir@/launcher
+Terminal=false
+NoDisplay=true

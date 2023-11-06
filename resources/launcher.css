@@ -1,0 +1,29 @@
+.launcher-list > * {
+	margin: 0.6rem 0;
+}
+
+.launcher-app {
+	border: unset;
+	background: unset;
+	box-shadow: unset;
+	padding: 0.6rem 0;
+}
+
+.launcher-app:hover,
+.launcher-app:focus,
+.launcher-app:active {
+}
+
+.launcher-app .icon {
+	margin-right:   0.6rem;
+	min-width:      2.0rem;
+	min-height:     2.0rem;
+	-gtk-icon-size: 2.0rem;
+}
+
+.launcher-app .favorite {
+	margin-left:    0.6rem;
+	min-width:      1.2rem;
+	min-height:     1.2rem;
+	-gtk-icon-size: 1.2rem;
+}

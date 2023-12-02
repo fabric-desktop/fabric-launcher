@@ -85,8 +85,6 @@ namespace Fabric.Desktop.Launcher {
 		private LauncherList list;
 
 		construct {
-			header.label = "Launcher";
-			header.visible = false;
 			list = new LauncherList();
 			append(list);
 

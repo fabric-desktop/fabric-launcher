@@ -39,6 +39,7 @@ namespace Fabric.Desktop.Launcher {
 			clicked.connect(() => {
 				if (!long_pressed) {
 					app.launch();
+					Application.instance.hide();
 				}
 				long_pressed = false;
 			});
@@ -147,6 +148,10 @@ namespace Fabric.Desktop.Launcher {
 
 		public void show() {
 			window.show();
+		}
+
+		public void hide() {
+			window.hide();
 		}
 
 		public void toggle_visibility() {
